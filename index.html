@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Authentication System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginForm">
+    <h2>Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" ><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" ><br>
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="securePage" style="display: none;">
+    <h2>Welcome to the Secure Page!</h2>
+    <p>This is a protected area.</p>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js">
+</script>
+
+</body>
+</html>
